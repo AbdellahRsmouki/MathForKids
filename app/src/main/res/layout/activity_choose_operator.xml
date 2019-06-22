@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:orientation="vertical"
+    tools:context=".ChooseOperator">
+
+
+    <Button
+        android:layout_marginTop="150dp"
+    android:id="@+id/chooseMult"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Multiplication"
+    android:onClick="chooseMult"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/button_style"
+    android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/chooseAdd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Addition"
+        android:onClick="chooseAdd"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"/>
+
+
+    <Button
+    android:id="@+id/chooseDiv"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Division"
+    android:onClick="chooseDiv"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/button_style"
+    android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/chooseMIN"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Subdivision"
+        android:onClick="chooseMIN"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

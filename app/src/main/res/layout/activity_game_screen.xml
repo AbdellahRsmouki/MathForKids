@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorBack"
+    tools:context=".GameScreen">
+
+
+    <TextView
+    android:id="@+id/question"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/black"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    android:text="No data found"/>
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+
+
+
+    <Button
+        android:layout_marginTop="150dp"
+        android:id="@+id/answer1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Multiplication"
+        android:onClick="answer1"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Addition"
+        android:onClick="answer2"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Division"
+        android:onClick="answer3"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Subdivision"
+        android:onClick="answer4"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"/>
+
+
+
+
+</LinearLayout>
